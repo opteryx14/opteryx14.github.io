@@ -1,0 +1,254 @@
+.title{
+	margin-top: 25%;
+	text-align: center;
+	margin-bottom: 20%;
+}
+
+.title2{
+	margin-top: 5%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+body{
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-image: url("images/hadean_earth.png")
+
+
+}
+
+.space{
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-image: url("images/space1.png")
+}
+
+
+h8{
+	color: #6bfd76;
+	font-family: monospace; sans-serif;
+	font-size: 18px;
+	font-style: bolder;
+	margin: 4%%;
+	text-align: center;
+
+}
+
+
+h9{
+	color: #6bfd76;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	font-size: 15pt;
+
+}
+
+
+h10{
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Bruno Ace SC'; 'Montserrat';
+	position: center;
+	font-size: 30pt;
+}
+
+
+h20{
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 20pt;
+	text-align: center;
+}
+
+h30{
+	color: white;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	font-size: 15pt;
+
+}
+
+h40{
+	color: #6bfd76;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	margin-left: 10%;
+	font-size: 20pt;
+
+}
+
+p1{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+p2{
+	margin: 0;
+	padding: 0;
+	color: #6bfd76;
+}
+
+
+p3{
+	float: left;
+	margin: 20px;
+	color: white;
+	font-family: monospace; sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+p4{
+	font-size: 20pt;
+	font-family: 'Bilbo Swash Caps'; Sans-Serif;
+
+}
+
+p5{
+	font-size: 12pt;
+	font-family: monospace; sans-serif;
+	font-style: italic;
+}
+
+
+p6{
+	float: left;
+	margin: 20px;
+	color: darkgray;
+	font-family: monospace; sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+
+
+.bblock{
+	background-color: black;
+	color: white;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	padding: 8%;
+}
+
+.gblock{
+	background-color: #6bfd76;
+	color: black;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	padding: 8%;
+}
+
+.clear{
+	width: 100%;
+	color: white;
+	padding: 3%;
+}
+
+.cleartext{
+	width: 100%;
+	color: white;
+	font-family: monospace; sans-serif;
+	font-weight: bold;
+	padding: 3%;
+	text-align: justify;
+	border-style: solid;
+}
+
+.venn{
+	height: 80%;
+	position: center;
+}
+
+
+.section{
+	height: 512px;
+	width:	33%;
+	border-style: solid;
+	float: left;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2px;
+
+}
+
+
+.portrait{
+	border-style: solid;
+	color: #6bfd76;
+	width: 150px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url("images/portrait.png");
+}
+
+.box0{
+	height: 200px;
+	width:	100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2px;
+
+}
+
+.box2{
+	height: 512px;
+	width: 50%;
+	background-color: black;
+	border-top-width: 10px
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.box1{
+	height: 512px;
+	width: 50%;
+	background-color: black;
+	border-top-width: 10px
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box3{
+	height: 512px;
+	width: 100%;
+	background-color: #6bfd76;
+	border-top-width: 10px
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.margin{
+	margin: 5%;
+	text-align: justify
+	overflow-wrap: break-word;
+	font-size: 10pt;
+	font-family: monospace; sans-serif;
+
+}
