@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics in Astrobiology</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url("images/topics.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .active::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <header class="hero relative">
+        <nav class="fixed w-full bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold">astrobiology.science</a>
+                <div class="space-x-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="topics.html" class="nav-link active">Topics</a>
+                    <a href="about.html" class="nav-link">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+        <div class="absolute inset-0 flex items-center justify-center text-center">
+            <div class="space-y-6">
+                <h1 class="text-6xl font-bold leading-tight">Topics in Astrobiology</h1>
+                <p class="text-xl"></p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hadean Eon Section -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="flex justify-center">
+                        <img src="images/hadean400.png" alt="Hadean Earth" class="rounded-lg shadow-xl max-w-md w-full">
+                    </div>
+                    <div class="space-y-6">
+                        <h2 class="text-4xl font-bold">The Hadean Eon</h2>
+                        <p class="text-gray-300">The Hadean Eon, spanning from about 4.6 to 4.0 billion years ago, was an exceptionally dynamic period in Earth's history, characterized by extreme geological activity and transformation. Initially, Earth was a fiery landscape, largely covered by a magma ocean due to the heat from planetary formation, radioactive decay, and intense meteorite impacts. However, this eon witnessed a rapid and remarkable transition from these molten conditions to the emergence of a water-covered planet. This shift was facilitated by cooling processes, where the surface began to solidify, and atmospheric outgassing contributed to the formation of water vapor, which eventually condensed into liquid water, creating vast oceans.  Unfortunately, the Hadean Eon left us with very sparse geological evidence; virtually no whole rocks from this time survive due to continuous remelting and plate techtonics. Our understanding of this period primarily comes from studying ancient zircon crystals, which provide clues to the existence of water and even possibly life towards the end of the Hadean. These zircons, found in places like Western Australia, suggest that despite the hellish conditions, Earth transitioned into a habitable environment sooner than previously thought, setting the stage for the biochemical processes that would lead to life in the subsequent eons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prebiotic Chemistry Section -->
+        <section class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <h2 class="text-4xl font-bold">Prebiotic Chemistry</h2>
+                        <p class="text-gray-300">Prebiotic chemistry explores the chemical processes and conditions that might have led to the emergence of life on Earth before the existence of living organisms. This field of study delves into how simple organic compounds, the building blocks of life, could have formed and assembled from inorganic precursors under the primordial conditions of early Earth.</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="images/prebiotic400.png" alt="RNA World" class="rounded-lg shadow-xl max-w-md w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional sections follow the same pattern, alternating background colors -->
+        
+        <!-- Ocean Worlds Section -->
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="flex justify-center">
+                        <img src="images/enceladus400.png" alt="Carbon Reduction" class="rounded-lg shadow-xl max-w-md w-full">
+                    </div>
+                    <div class="space-y-6">
+                        <h2 class="text-4xl font-bold">Ocean Worlds</h2>
+                        <p class="text-gray-300">"Ocean Worlds" are celestial bodies in our solar system thought to harbor liquid oceans, potentially providing environments suitable for life. Among these, Enceladus, a moon of Saturn, stands out for its geologically active surface with geysers spewing water vapor and organic compounds into space, suggesting a global ocean beneath its icy crust. This ocean is believed to be in contact with a rocky seafloor, offering the kind of chemical interaction necessary for life as we understand it.  
+                        <br><br> Europa, one of Jupiter's moons, also features prominently in the search for extraterrestrial life. Its smooth, icy exterior hints at a vast ocean below, possibly warmed by tidal heating from Jupiter's gravitational pull. The presence of salts and organics detected by spacecraft, along with the possibility of hydrothermal activity, makes Europa a compelling candidate for astrobiological exploration. 
+                        <br><br> Titan, Saturn's largest moon, presents a different kind of ocean world. While its surface lakes consist of liquid methane and ethane due to its frigid temperatures, beneath its icy shell, there might be an ocean of water, possibly sandwiched between ice layers. Titan's thick atmosphere and complex organic chemistry offer a unique environment where life could theoretically exist, though in forms very different from Earth's life due to the extreme conditions. These ocean worlds expand our concept of where and how life might exist, pushing the boundaries of astrobiology beyond Earth-like conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dissipative Structures Section -->
+        <section class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <h2 class="text-4xl font-bold">Dissipative Structures & Disequilibria</h2>
+                        <p class="text-gray-300">Life is inherently a non-equilibrium phenomenon.  In other words, life cannot exist at equilibrium; it is fueled by disequilibria.  Early Earth was rich with sources of disequilibria, from chemical gradients characteristic of deep marine hydrothermal systems to the solar flux to the planet's surface.  Dissipative structures are patterns or order that arise from these non-equilibrium conditions.  They are maintained by persistent disequilibria, and exist (from a physical standpoint) to dissipate these disequilibria.  In the context of life, this implies that all biological systems, from the simplest cells to the most complex eukaryotes, are essentially disequilibrium-dissipating machines that stave off entropy by organizing and maintaining complex structures through metabolic processes.  This perspective on life's origin suggests that the first living systems were likely chemical entities that arose out of critically far-from-equilibrium systems in order to facilitate dissipation of steep environmental gradients.  In doing so, these systems greatly increased the overall entropy production of the larger system at the smaller cost of local entropy reduction and maintenance of sophisticated and complex machinery.</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="images/dissipation400.png" alt="Dissipative Structures" class="rounded-lg shadow-xl max-w-md w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400">© 2023 astrobiology.science</div>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="index.html" class="text-gray-400 hover:text-white transition">Home</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
